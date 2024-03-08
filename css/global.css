@@ -1,0 +1,9 @@
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end; 
+} 
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
