@@ -5,10 +5,17 @@
     background-color: #ffffff;
     position: fixed;
     width: 100%;
-    top 0;
+    top: 0;
+    left: 0;
+    
 }
 .nav__ul {
+    display: flex;
+    position: absolute;
     gap: 1rem;
+    
+    right: 0;
+    padding-right: 4rem;
     
 }
 ul > li {
@@ -20,8 +27,8 @@ ul > li {
 }
 .nav__div {
     width: 100%;
-    
-    display: flex;
+    padding: 0rem 5rem 0rem 5rem;
+    background-color: azure;
     justify-content: space-between;
 }
 .section__hero {
@@ -96,4 +103,8 @@ ul > li {
     height: 30px;
     bottom: 4px;
     right: 16px
+}
+.nav__title {
+    width: 90px;
+    
 }
