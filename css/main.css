@@ -48,11 +48,7 @@ ul > li {
     border-style: none;
     color: white;
 }
-.nav__home {
-    border-bottom: solid 5px;
-    padding-bottom: 4px;
-    border-color: #DB7A4E;
-}
+
 .main__img {
     height: 16rem;
     border-radius: 5px;

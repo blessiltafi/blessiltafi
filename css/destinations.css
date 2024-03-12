@@ -1,10 +1,4 @@
-.nav__hawaii {
-    border-bottom: solid 5px;
-    padding-bottom: 4px;
-    border-color: #DB7A4E;
-}
-
-.main__h1-hawaii {
+.main__h1-destination {
     width: 100%;
     height: 5px;
     background-color: white;
@@ -13,15 +7,12 @@
     margin: 3rem;
     font-size: 60;
     padding-top: 4rem;
-    
 }
-
-.article__p-hawaii {
-    
+.article__p-destination {
     background-color: #fefaf5;
     height: 30px;
 }
-.main__card-hawaii {
+.main__card-destination {
     display: inline-block;
     text-align: center;
     margin: 3rem 2rem 2rem 2rem;
@@ -34,21 +25,38 @@
     border-color: black;
     width: 0px;
     margin: 0rem;
-     
 }
-.main__div-hawaii {
+.main__div-destination {
     display: flex;
     justify-content: center;
-    
 }
-
-.main__img-hawaii {
+.main__img-destination {
     width: 100%;
     height: 100px;
-    
 }
-body {
+.body__hawaii {
     background-image: url(../2.0 - Assets/Images/hawaii.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.nav__destination {
+    border-bottom: solid 5px;
+    padding-bottom: 4px;
+    border-color: #DB7A4E;
+}
+.body__iceland {
+    background-image: url(../2.0 - Assets/Images/iceland.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.body__greece {
+    background-image: url(../2.0 - Assets/Images/greece.jpg);
     width: 100%;
     height: 100%;
     background-size: cover;
