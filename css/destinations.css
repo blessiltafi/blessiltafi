@@ -1,29 +1,57 @@
-.nav__div-hawaii {
+.nav__hawaii {
+    border-bottom: solid 5px;
+    padding-bottom: 4px;
+    border-color: #DB7A4E;
+}
+
+.main__h1-hawaii {
     width: 100%;
-    padding: 0rem 5rem 0rem 5rem;
-    justify-content: space-between;
+    height: 5px;
+    background-color: white;
+    padding-left: 4.5rem;
+    color: black;
+    margin: 3rem;
+    font-size: 60;
+    padding-top: 4rem;
+    
 }
-.nav__ul-hawaii {
-    display: flex;
-    position: absolute;
-    gap: 1rem;
-    right: 0;
-    padding-right: 3.5rem;
+
+.article__p-hawaii {
+    
+    background-color: #fefaf5;
+    height: 30px;
 }
-.nav__container {
-    display: flex;
-    padding: 0rem;
+.main__card-hawaii {
+    display: inline-block;
+    text-align: center;
+    margin: 3rem 2rem 2rem 2rem;
+    padding: 0rem 1rem 4rem 1rem;
+    background-color: white;
+}
+.article__p-span {
+    border-bottom: solid 3px;
+    padding: 0rem 4rem;
+    border-color: black;
+    width: 0px;
     margin: 0rem;
-    background-color: #ffffff;
-    position: fixed;
+     
+}
+.main__div-hawaii {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.main__img-hawaii {
     width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 3;
+    height: 100px;
+    
 }
-ul > li {
-    margin: 0rem 0.5rem;
-}
-p {
-    font-size: 10rem;
+body {
+    background-image: url(../2.0 - Assets/Images/hawaii.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
