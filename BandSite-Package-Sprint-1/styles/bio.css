@@ -1,0 +1,91 @@
+.body {
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.header {
+    background-color: #323232;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+.header__logo {
+    padding: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header__nav {
+    padding: 0px;
+    margin: 0px;
+}
+.header__ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.header__li {
+    padding-bottom: 20px;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    
+}
+.bandsite-logo {
+    
+    height: 20px;
+    width: 120px;
+}
+.header__li--biography {
+    width: 50%;
+    border-color: #323232;
+    border-bottom: 6px solid white;
+    
+}
+.header__li--shows {
+    width: 50%;
+}
+
+.header__section-image {
+    width: 100%;
+    opacity: 50%;
+}
+.header__section-h1 {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    padding-left: 26px;
+    
+    font-weight: 500;
+}
+.header__section {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+h1 {
+    font-size: 50px;
+}
+.main__figure {
+    font-size: 23;
+    font-weight: bold;
+}
+h2 {
+    font-size: 25;
+}
+p {
+    font-size: 24;
+    word-spacing: 3;
+}
+.figure__p {
+    font-size: 25;
+}
+.main__figcaption {
+    word-spacing: 2;
+}
+.main__figure-image {
+    width: 100%;
+}
